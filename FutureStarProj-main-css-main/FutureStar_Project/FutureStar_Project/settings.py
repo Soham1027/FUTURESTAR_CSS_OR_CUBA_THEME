@@ -90,6 +90,8 @@ WSGI_APPLICATION = 'FutureStar_Project.wsgi.application'
 #     }
 # }
 
+AUTH_USER_MODEL = 'FutureStar_App.User'
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
